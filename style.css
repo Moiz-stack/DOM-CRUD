@@ -41,6 +41,8 @@
     padding: 10px;
     border-radius: 8px;
     background-color: #f9f9f9;
+    flex-direction: column;
+    margin-bottom: 10px;
   }
   
   input {
@@ -75,7 +77,11 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 20px;
-    width: calc(100% - 22px); /* Adjust for padding and border */
+    width: 40%;
+  }
+
+  #task-input{
+    margin-bottom: 10px;
   }
   
   li {
@@ -97,7 +103,7 @@
     cursor: pointer;
     color: #fff;
   }
-  
+ 
   li button.edit {
     background-color: #007bff;
     margin-right: 10px;
